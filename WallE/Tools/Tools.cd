@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WallE.Tools.Colors" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAEAAIAAAIgAAAgAAAAAABAAAAAIAAAAAgDAAAAA=</HashCode>
+      <FileName>Tools\Colors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.Tools.Direction" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAICAAAAAAAgAAAAAAEAAAAAAAAAAAgAABAAQ=</HashCode>
+      <FileName>Tools\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.Tools.DirectionalArray" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tools\DirectionalArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.Tools.EnumBaseType&lt;T&gt;" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgQAgAAEEAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Tools\EnumBaseType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.Tools.LinealMemory" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Tools\LinealMemory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.Tools.Position" Collapsed="true">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEgAAAAAAAAAAAAKAAAABgAAAAYAA=</HashCode>
+      <FileName>Tools\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.Tools.Shapes" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAQAAAAIAAAAAAAAgQAAAAABAIAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Tools\Shapes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.Tools.Sizes" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAIAAAAAAAAgIAAABgAAAAAAAAAAAAgAAEAAA=</HashCode>
+      <FileName>Tools\Sizes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="WallE.Tools.ISensor" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAEAAAAAACAgAAAAAAAAAABAAAAAgAAAAQA=</HashCode>
+      <FileName>Tools\ISensor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WallE.Tools.IWalker" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAAAAAAAAAAAAAASAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Tools\IWalker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

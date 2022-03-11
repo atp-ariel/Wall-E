@@ -1,0 +1,7 @@
+# El retorno de Wall-E
+
+Sobre un mundo rectangular dividido en casillas se ubica un conjunto de objetos. Algunos de estos objetos son robots que pueden ser programados para que efectúen tareas (incluso, competir entre ellos). Los robots pueden desplazarse hacia delante o hacia atrás, o girar 90 grados hacia la izquierda o hacia la derecha. La dirección del robot siempre será alguno de los ángulos ( 0° , 90° , 180° o 270° con respecto al norte). En el terreno puede haber objetos grandes (obstáculos), objetos medianos (movibles) y objetos pequeños (cargables). Si un robot avanza sobre un obstáculo no se mueve, si avanza sobre un objeto movible (siempre que se pueda) lo desplaza y si avanza sobre un objeto pequeño lo recoge (lo almacena en su interior) o lo desplaza si tiene el interior ocupado. Si la casilla de enfrente al robot está libre el robot puede soltar (descargar) el objeto en su interior.
+
+El robot tiene un núcleo central de procesamiento que es capaz de ejecutar un conjunto de instrucciones. Además tiene sensores que permiten “percibir” características del ambiente. Por ejemplo, un sensor ultrasónico para determinar distancia o una webcam para identificar el color del objeto enfrente más cercano. Los sensores permiten recibir información del medio y que el robot pueda tomar decisiones de acuerdo a ello.
+
+Para ver la descripción completa del proyecto [ver aquí](Wall%20E%20(el%20retorno).pdf)

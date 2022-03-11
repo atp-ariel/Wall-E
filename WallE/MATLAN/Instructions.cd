@@ -1,0 +1,964 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WallE.MATLAN.Instruction" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instruction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.NE" Collapsed="true">
+    <Position X="43.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Angular\Angulares.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SE" Collapsed="true">
+    <Position X="43.75" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.411" />
+        <Point X="43.558" Y="1.411" />
+        <Point X="43.558" Y="2.543" />
+        <Point X="44.5" Y="2.543" />
+        <Point X="44.5" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Angular\Angulares.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.NW" Collapsed="true">
+    <Position X="43.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.418" />
+        <Point X="43.439" Y="1.418" />
+        <Point X="43.439" Y="3.606" />
+        <Point X="43.447" Y="3.606" Type="JumpStart" />
+        <Point X="43.7" Y="3.606" Type="JumpEnd" />
+        <Point X="44.5" Y="3.606" />
+        <Point X="44.5" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Angular\Angulares.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SW" Collapsed="true">
+    <Position X="43.75" Y="7" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.4" />
+        <Point X="43.617" Y="1.4" />
+        <Point X="43.617" Y="6.83" />
+        <Point X="44.5" Y="6.83" />
+        <Point X="44.5" Y="7" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Angular\Angulares.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Branch" Collapsed="true">
+    <Position X="50" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAACAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Conditionals\Branch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Print" Collapsed="true">
+    <Position X="59" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Console\Print.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Start" Collapsed="true">
+    <Position X="38.75" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.394" />
+        <Point X="38.652" Y="1.394" />
+        <Point X="38.652" Y="2.596" />
+        <Point X="39.5" Y="2.596" />
+        <Point X="39.5" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Execution Routine\Start.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetAt" Collapsed="true">
+    <Position X="62.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\LinealMemory\GetAt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetAt" Collapsed="true">
+    <Position X="62.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.383" />
+        <Point X="62.17" Y="1.383" />
+        <Point X="62.17" Y="2.587" />
+        <Point X="63" Y="2.587" />
+        <Point X="63" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\LinealMemory\SetAt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Dec" Collapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Atomic\Dec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Inc" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Atomic\Inc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Lnot" Collapsed="true">
+    <Position X="31.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Atomic\Lnot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Not" Collapsed="true">
+    <Position X="34.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Atomic\Not.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.AtomicOperator" Collapsed="true">
+    <Position X="33" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\AtomicOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Add" Collapsed="true">
+    <Position X="67.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Add.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.And" Collapsed="true">
+    <Position X="71.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\And.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Div" Collapsed="true">
+    <Position X="67.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Div.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Eq" Collapsed="true">
+    <Position X="71.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Eq.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Geq" Collapsed="true">
+    <Position X="67.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Geq.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Gt" Collapsed="true">
+    <Position X="71.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Gt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Land" Collapsed="true">
+    <Position X="65" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Land.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Leq" Collapsed="true">
+    <Position X="67.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Leq.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Lor" Collapsed="true">
+    <Position X="69.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Lor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Lt" Collapsed="true">
+    <Position X="71.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Lt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Lxor" Collapsed="true">
+    <Position X="65" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Lxor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Mod" Collapsed="true">
+    <Position X="69.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Mod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Mul" Collapsed="true">
+    <Position X="65" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Mul.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Neq" Collapsed="true">
+    <Position X="69.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Neq.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Or" Collapsed="true">
+    <Position X="65" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Or.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Sub" Collapsed="true">
+    <Position X="69.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Binary\Sub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.BinaryOperator" Collapsed="true">
+    <Position X="68.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\BinaryOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Ternary" Collapsed="true">
+    <Position X="27" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\Ternary\Ternary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.TernaryOperator" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Operators\TernaryOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetA" Collapsed="true">
+    <Position X="54.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetB" Collapsed="true">
+    <Position X="52.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetC" Collapsed="true">
+    <Position X="52.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetD" Collapsed="true">
+    <Position X="57" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetE" Collapsed="true">
+    <Position X="56.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetF" Collapsed="true">
+    <Position X="54.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetG" Collapsed="true">
+    <Position X="54.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetH" Collapsed="true">
+    <Position X="54.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetI" Collapsed="true">
+    <Position X="52.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetJ" Collapsed="true">
+    <Position X="52" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetK" Collapsed="true">
+    <Position X="56.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetL" Collapsed="true">
+    <Position X="56.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetM" Collapsed="true">
+    <Position X="54.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetN" Collapsed="true">
+    <Position X="54.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetO" Collapsed="true">
+    <Position X="52" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetP" Collapsed="true">
+    <Position X="52.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetQ" Collapsed="true">
+    <Position X="56.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetR" Collapsed="true">
+    <Position X="52.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetS" Collapsed="true">
+    <Position X="56.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetT" Collapsed="true">
+    <Position X="54.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetU" Collapsed="true">
+    <Position X="54.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetV" Collapsed="true">
+    <Position X="52.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetW" Collapsed="true">
+    <Position X="52.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetX" Collapsed="true">
+    <Position X="56.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetY" Collapsed="true">
+    <Position X="57" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.GetZ" Collapsed="true">
+    <Position X="54.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get\Get Speficied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Get" Collapsed="true">
+    <Position X="54.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAABCAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Get.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetA" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetB" Collapsed="true">
+    <Position X="0.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetC" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetD" Collapsed="true">
+    <Position X="2.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetE" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetF" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetG" Collapsed="true">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetH" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetI" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetJ" Collapsed="true">
+    <Position X="2.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetK" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetL" Collapsed="true">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetM" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetN" Collapsed="true">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetO" Collapsed="true">
+    <Position X="2.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetP" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetQ" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetR" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetS" Collapsed="true">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetT" Collapsed="true">
+    <Position X="5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetU" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetV" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetW" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetX" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetY" Collapsed="true">
+    <Position X="5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.SetZ" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set\Set Specified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Set" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.207" />
+        <Point X="14.472" Y="1.207" />
+        <Point X="14.472" Y="1.126" />
+        <Point X="7.121" Y="1.126" />
+        <Point X="7.121" Y="1.064" />
+        <Point X="4.695" Y="1.064" />
+        <Point X="4.695" Y="1.226" />
+        <Point X="3.894" Y="1.226" />
+        <Point X="3.894" Y="1.5" />
+        <Point X="3.5" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAACBAAAAAAAAAAAAA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Registry\Set.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Call" Collapsed="true">
+    <Position X="41" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Routine\Call.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.RecCall" Collapsed="true">
+    <Position X="41" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.472" />
+        <Point X="39.417" Y="1.472" Type="JumpStart" />
+        <Point X="39.583" Y="1.472" Type="JumpEnd" />
+        <Point X="41.667" Y="1.472" Type="JumpStart" />
+        <Point X="41.833" Y="1.472" Type="JumpEnd" />
+        <Point X="43.119" Y="1.472" />
+        <Point X="43.119" Y="3.6" />
+        <Point X="41.75" Y="3.6" />
+        <Point X="41.75" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAACAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Routine\RecCall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Routine" Collapsed="true">
+    <Position X="41" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.452" />
+        <Point X="43.127" Y="1.452" />
+        <Point X="43.127" Y="2.578" />
+        <Point X="41.75" Y="2.578" />
+        <Point X="41.75" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAACAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Routine\Routine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Number" Collapsed="true">
+    <Position X="47.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Stack\Number.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.One" Collapsed="true">
+    <Position X="47.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.396" />
+        <Point X="47.062" Y="1.396" />
+        <Point X="47.062" Y="2.536" />
+        <Point X="48" Y="2.536" />
+        <Point X="48" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Stack\One.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Zero" Collapsed="true">
+    <Position X="47.25" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.425" />
+        <Point X="47.074" Y="1.425" />
+        <Point X="47.074" Y="3.545" />
+        <Point X="48" Y="3.545" />
+        <Point X="48" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Stack\Zero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.TS" Collapsed="true">
+    <Position X="43.75" Y="8" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.472" />
+        <Point X="39.417" Y="1.472" Type="JumpStart" />
+        <Point X="39.583" Y="1.472" Type="JumpEnd" />
+        <Point X="41.667" Y="1.472" Type="JumpStart" />
+        <Point X="41.833" Y="1.472" Type="JumpEnd" />
+        <Point X="43.581" Y="1.472" />
+        <Point X="43.581" Y="8.046" />
+        <Point X="44.5" Y="8.046" />
+        <Point X="44.5" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\T\T.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.TE" Collapsed="true">
+    <Position X="43.75" Y="6" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.433" />
+        <Point X="43.552" Y="1.433" />
+        <Point X="43.552" Y="5.7" />
+        <Point X="44.5" Y="5.7" />
+        <Point X="44.5" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\T\T.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.TN" Collapsed="true">
+    <Position X="43.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.418" />
+        <Point X="43.53" Y="1.418" />
+        <Point X="43.53" Y="4.621" />
+        <Point X="43.534" Y="4.621" Type="JumpStart" />
+        <Point X="43.7" Y="4.621" Type="JumpEnd" />
+        <Point X="44.5" Y="4.621" />
+        <Point X="44.5" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\T\T.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.TW" Collapsed="true">
+    <Position X="43.75" Y="9" Width="1.5" />
+    <InheritanceLine Type="WallE.MATLAN.Instruction" ManuallyRouted="true">
+      <Path>
+        <Point X="36.75" Y="1.062" />
+        <Point X="36.75" Y="1.439" />
+        <Point X="43.589" Y="1.439" />
+        <Point X="43.589" Y="8.846" />
+        <Point X="44.5" Y="8.846" />
+        <Point X="44.5" Y="9" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\T\T.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Backward" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Backward.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.BarcodeScanner" Collapsed="true">
+    <Position X="16.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\BarcodeScanner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Distance" Collapsed="true">
+    <Position X="17.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Distance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Drop" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Drop.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Forward" Collapsed="true">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Forward.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Kinect" Collapsed="true">
+    <Position X="19.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Kinect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Left" Collapsed="true">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Left.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Right" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Right.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Webcam" Collapsed="true">
+    <Position X="18.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Webcam.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Compass" Collapsed="true">
+    <Position X="20.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Compass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Chronometer" Collapsed="true">
+    <Position X="21.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Chronometer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Balance" Collapsed="true">
+    <Position X="22.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Programmable Instructions\Balance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.MATLAN.Instructions.Return" Collapsed="true">
+    <Position X="38.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MATLAN\Instructions\Language Instructions\Execution Routine\Return.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WallE.World.WorldObjects.Box" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAABA=</HashCode>
+      <FileName>World\WorldObjects\Box.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.World.WorldObjects.Plant" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAABA=</HashCode>
+      <FileName>World\WorldObjects\Plant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.World.WorldObjects.Robot" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCFQAAIAAEQAAAEgCAgAASAgAAAAIJABgAAgAAAARA=</HashCode>
+      <FileName>World\WorldObjects\Robot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.World.WorldObjects.Sphere" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAABA=</HashCode>
+      <FileName>World\WorldObjects\Sphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallE.World.WorldObjects.WallEObjects" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAQAEgAAAAIAAAAgAAIBAAAAAAAAAABA=</HashCode>
+      <FileName>World\WorldObjects\WallEObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WallE.World.Map" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAAAAAAAANAEiAAAAAAAAAAAgIAECCAAAAgAgBQ=</HashCode>
+      <FileName>World\Map.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
